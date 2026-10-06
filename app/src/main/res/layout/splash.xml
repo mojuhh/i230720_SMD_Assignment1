@@ -56,11 +56,9 @@
         android:text="from"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textColor="@color/gray"
+        android:textColor="#c4e1d8"
         android:textSize="20sp"
         android:layout_marginBottom="10dp"/>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

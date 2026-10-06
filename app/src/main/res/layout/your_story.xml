@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#789269">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.5dp"
+            android:background="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/avatar_circle"
+                android:backgroundTint="@color/teal"
+                android:gravity="center"
+                android:text="JW"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Your story · 2h"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="24dp"
+        android:background="#A63321"
+        android:padding="8dp"
+        android:rotation="-2"
+        android:text="Saturday plans"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_gravity="bottom"
+        android:background="#90000000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Seen by 24"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:gravity="center" android:orientation="vertical">
+            <ImageView android:layout_width="18dp" android:layout_height="18dp" android:contentDescription="Create" android:src="@drawable/add" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Create" android:textColor="#FFFFFF" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:gravity="center" android:orientation="vertical">
+            <ImageView android:layout_width="18dp" android:layout_height="18dp" android:contentDescription="Highlight" android:src="@drawable/heart" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Highlight" android:textColor="#FFFFFF" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:gravity="center" android:orientation="vertical">
+            <ImageView android:layout_width="18dp" android:layout_height="18dp" android:contentDescription="Send" android:src="@drawable/send" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Send" android:textColor="#FFFFFF" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:gravity="center" android:orientation="vertical">
+            <ImageView android:layout_width="18dp" android:layout_height="18dp" android:contentDescription="More" android:src="@drawable/more" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="More" android:textColor="#FFFFFF" android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

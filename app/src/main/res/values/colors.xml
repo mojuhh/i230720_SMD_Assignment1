@@ -2,5 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="gray">#b7e0e2</color>
+    <color name="gray">#5e5a54</color>
+    <color name="cream">#f4f2ee</color>
+    <color name="notif">#b84a2a</color>
+    <color name="teal">#0b5f63</color>
+    <color name="background1">#f4f2ee</color>
+
+
 </resources>
