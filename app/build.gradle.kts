@@ -44,4 +44,5 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.9.0"))
     implementation("com.google.firebase:firebase-auth")
     implementation("com.google.firebase:firebase-database")
+    implementation("io.agora.rtc:full-sdk:4.3.0")
 }

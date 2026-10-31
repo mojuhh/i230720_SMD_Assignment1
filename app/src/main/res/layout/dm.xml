@@ -68,6 +68,7 @@
                 android:src="@drawable/video_call" />
 
             <ImageView
+                android:id="@+id/btnVideoCall"
                 android:layout_width="22dp"
                 android:layout_height="22dp"
                 android:layout_marginStart="14dp"

@@ -15,7 +15,15 @@ class DmActivity : AppCompatActivity() {
         }
 
         findViewById<View>(R.id.btnVoiceCall)?.setOnClickListener {
-            startActivity(Intent(this, VoiceCallActivity::class.java))
+            val intent = Intent(this, VoiceCallActivity::class.java)
+            intent.putExtra("caller_name", "Aisha Khan")
+            startActivity(intent)
+        }
+
+        findViewById<View>(R.id.btnVideoCall)?.setOnClickListener {
+            val intent = Intent(this, VideoCallActivity::class.java)
+            intent.putExtra("caller_name", "Aisha Khan")
+            startActivity(intent)
         }
     }
 }
