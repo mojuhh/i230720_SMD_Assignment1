@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8FAF9"
+    android:background="@color/cream"
     android:orientation="vertical"
     android:padding="20dp">
 
@@ -35,6 +35,7 @@
         android:textStyle="bold" />
 
     <LinearLayout
+        android:id="@+id/recentLoginCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -48,6 +49,7 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/tvRecentAvatar"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:background="@drawable/avatar_circle"
@@ -64,7 +66,6 @@
                 android:layout_gravity="top|end"
                 android:layout_marginTop="2dp"
                 android:layout_marginEnd="2dp"
-                android:padding=""
                 android:background="@drawable/avatar_circle"
                 android:backgroundTint="@color/notif"
                 android:gravity="center"
@@ -82,6 +83,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/tvRecentName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Jacob West"
@@ -90,6 +92,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/tvRecentSub"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Tap to log in"
@@ -105,32 +108,38 @@
             android:textSize="18sp" />
     </LinearLayout>
 
-    <TextView
+    <EditText
+        android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:background="@drawable/rounded_card"
         android:padding="12dp"
-        android:text="jacob.west@mail.com"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
         android:textColor="#000000"
         android:textSize="14sp" />
 
-    <TextView
+    <EditText
+        android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@drawable/rounded_card"
         android:padding="12dp"
-        android:text="••••••••"
+        android:hint="Password"
+        android:inputType="textPassword"
         android:textColor="#000000"
         android:textSize="14sp" />
+
 
     <TextView
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="44dp"
         android:layout_marginTop="16dp"
-        android:background="@color/teal"
+        android:background="@drawable/rounded_card"
+        android:backgroundTint="@color/teal"
         android:gravity="center"
         android:text="Log in"
         android:textColor="#FFFFFF"

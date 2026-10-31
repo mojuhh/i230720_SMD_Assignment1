@@ -44,14 +44,14 @@
             android:layout_width="14dp"
             android:layout_height="14dp"
             android:contentDescription="Like"
-            android:src="@drawable/like" />
+            android:src="@drawable/thumb_up" />
 
         <ImageView
             android:layout_width="14dp"
             android:layout_height="14dp"
             android:layout_marginStart="2dp"
             android:contentDescription="Heart"
-            android:src="@drawable/heart" />
+            android:src="@drawable/favorite" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -188,7 +188,7 @@
             android:layout_height="28dp"
             android:contentDescription="Camera"
             android:padding="4dp"
-            android:src="@drawable/camera" />
+            android:src="@drawable/photo_camera" />
 
         <TextView
             android:layout_width="0dp"
@@ -208,7 +208,7 @@
             android:layout_height="28dp"
             android:contentDescription="Emoji"
             android:padding="4dp"
-            android:src="@drawable/emoji" />
+            android:src="@drawable/sentiment_satisfied" />
 
         <ImageView
             android:layout_width="28dp"

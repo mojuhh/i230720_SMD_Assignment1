@@ -39,7 +39,7 @@
                 android:layout_width="28dp"
                 android:layout_height="28dp"
                 android:contentDescription="Chats"
-                android:src="@drawable/social" />
+                android:src="@drawable/group" />
 
             <TextView
                 android:layout_width="14dp"
@@ -78,7 +78,7 @@
             android:contentDescription="Friends"
             android:padding="8dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/social" />
+            android:src="@drawable/group" />
 
         <ImageView
             android:id="@+id/tabMarketplace"
@@ -88,7 +88,7 @@
             android:contentDescription="Marketplace"
             android:padding="8dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/market" />
+            android:src="@drawable/storefront" />
 
         <ImageView
             android:id="@+id/tabNotifications"
@@ -98,7 +98,7 @@
             android:contentDescription="Notifications"
             android:padding="8dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/notification" />
+            android:src="@drawable/notifications" />
 
         <ImageView
             android:id="@+id/tabMenu"
@@ -146,7 +146,7 @@
             android:layout_width="28dp"
             android:layout_height="28dp"
             android:contentDescription="Gallery"
-            android:src="@drawable/gallery" />
+            android:src="@drawable/photo" />
     </LinearLayout>
 
     <LinearLayout
@@ -341,14 +341,14 @@
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:contentDescription="Like"
-                android:src="@drawable/like" />
+                android:src="@drawable/thumb_up" />
 
             <ImageView
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:layout_marginStart="2dp"
                 android:contentDescription="Heart"
-                android:src="@drawable/heart" />
+                android:src="@drawable/favorite" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -384,7 +384,7 @@
                 android:layout_width="18dp"
                 android:layout_height="18dp"
                 android:contentDescription="Like"
-                android:src="@drawable/like" />
+                android:src="@drawable/thumb_up" />
 
             <TextView
                 android:layout_width="wrap_content"

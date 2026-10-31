@@ -32,10 +32,10 @@
                 android:layout_height="1dp"
                 android:layout_weight="1" />
 
-            <ImageView android:layout_width="32dp" android:layout_height="32dp" android:layout_marginStart="6dp" android:background="#60000000" android:contentDescription="Add Tag" android:padding="6dp" android:src="@drawable/add_friend" />
-            <ImageView android:layout_width="32dp" android:layout_height="32dp" android:layout_marginStart="6dp" android:background="#60000000" android:contentDescription="Text" android:padding="6dp" android:src="@drawable/add_text" />
-            <ImageView android:layout_width="32dp" android:layout_height="32dp" android:layout_marginStart="6dp" android:background="#60000000" android:contentDescription="Stickers" android:padding="6dp" android:src="@drawable/emoji" />
-            <ImageView android:layout_width="32dp" android:layout_height="32dp" android:layout_marginStart="6dp" android:background="#60000000" android:contentDescription="Music" android:padding="6dp" android:src="@drawable/music" />
+            <ImageView android:layout_width="32dp" android:layout_height="32dp" android:layout_marginStart="6dp" android:background="#60000000" android:contentDescription="Add Tag" android:padding="6dp" android:src="@drawable/person_add" />
+            <ImageView android:layout_width="32dp" android:layout_height="32dp" android:layout_marginStart="6dp" android:background="#60000000" android:contentDescription="Text" android:padding="6dp" android:src="@drawable/text_fields" />
+            <ImageView android:layout_width="32dp" android:layout_height="32dp" android:layout_marginStart="6dp" android:background="#60000000" android:contentDescription="Stickers" android:padding="6dp" android:src="@drawable/sentiment_satisfied" />
+            <ImageView android:layout_width="32dp" android:layout_height="32dp" android:layout_marginStart="6dp" android:background="#60000000" android:contentDescription="Music" android:padding="6dp" android:src="@drawable/music_note" />
         </LinearLayout>
 
         <TextView

@@ -30,7 +30,7 @@
             android:layout_height="32dp"
             android:background="#F0F2F5"
             android:padding="6dp"
-            android:src="@drawable/add_text" />
+            android:src="@drawable/text_fields" />
     </LinearLayout>
 
     <LinearLayout

@@ -125,7 +125,7 @@
                     android:layout_width="16dp"
                     android:layout_height="16dp"
                     android:contentDescription="Edit profile"
-                    android:src="@drawable/add_text" />
+                    android:src="@drawable/text_fields" />
 
                 <TextView
                     android:layout_width="wrap_content"

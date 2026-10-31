@@ -87,42 +87,42 @@
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:contentDescription="Like"
-            android:src="@drawable/like" />
+            android:src="@drawable/thumb_up" />
 
         <ImageView
             android:layout_width="36dp"
             android:layout_height="36dp"
             android:layout_marginStart="6dp"
             android:contentDescription="Heart"
-            android:src="@drawable/heart" />
+            android:src="@drawable/favorite" />
 
         <ImageView
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_marginStart="6dp"
             android:contentDescription="Haha"
-            android:src="@drawable/emoji" />
+            android:src="@drawable/sentiment_satisfied" />
 
         <ImageView
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_marginStart="6dp"
             android:contentDescription="Wow"
-            android:src="@drawable/emoji" />
+            android:src="@drawable/sentiment_satisfied" />
 
         <ImageView
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_marginStart="6dp"
             android:contentDescription="Sad"
-            android:src="@drawable/emoji" />
+            android:src="@drawable/sentiment_satisfied" />
 
         <ImageView
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_marginStart="6dp"
             android:contentDescription="Angry"
-            android:src="@drawable/emoji" />
+            android:src="@drawable/sentiment_satisfied" />
     </LinearLayout>
 
 </FrameLayout>

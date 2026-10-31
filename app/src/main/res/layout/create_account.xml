@@ -202,23 +202,37 @@
             android:textSize="13sp" />
     </LinearLayout>
 
-    <TextView
+    <EditText
+        android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:background="@drawable/rounded_card"
         android:padding="10dp"
-        android:text="jacob.west@mail.com"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
         android:textSize="14sp" />
 
-    <TextView
+    <EditText
+        android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@drawable/rounded_card"
         android:padding="10dp"
-        android:text="••••••••"
+        android:hint="Password"
+        android:inputType="textPassword"
         android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvPasswordStrength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Password Strength: Weak"
+        android:textColor="#E53935"
+        android:textSize="12sp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"

@@ -100,21 +100,21 @@
                 android:layout_width="28dp"
                 android:layout_height="28dp"
                 android:contentDescription="Like"
-                android:src="@drawable/like" />
+                android:src="@drawable/thumb_up" />
 
-            <ImageView
-                android:layout_width="28dp"
-                android:layout_height="28dp"
-                android:layout_marginStart="4dp"
-                android:contentDescription="Heart"
-                android:src="@drawable/heart" />
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="4dp"
+            android:contentDescription="Heart"
+            android:src="@drawable/favorite" />
 
-            <ImageView
-                android:layout_width="28dp"
-                android:layout_height="28dp"
-                android:layout_marginStart="4dp"
-                android:contentDescription="Haha"
-                android:src="@drawable/emoji" />
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="4dp"
+            android:contentDescription="Haha"
+            android:src="@drawable/sentiment_satisfied" />
         </LinearLayout>
     </LinearLayout>
 

@@ -47,13 +47,14 @@
         android:textColor="#757575"
         android:textSize="11sp" />
 
-    <TextView
+    <EditText
+        android:id="@+id/etName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:background="@drawable/rounded_card"
+        android:hint="Name"
         android:padding="10dp"
-        android:text="Jacob West"
         android:textSize="13sp" />
 
     <TextView
@@ -64,13 +65,14 @@
         android:textColor="#757575"
         android:textSize="11sp" />
 
-    <TextView
+    <EditText
+        android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:background="@drawable/rounded_card"
+        android:hint="Username"
         android:padding="10dp"
-        android:text="jacob.west"
         android:textSize="13sp" />
 
     <TextView
@@ -81,13 +83,14 @@
         android:textColor="#757575"
         android:textSize="11sp" />
 
-    <TextView
+    <EditText
+        android:id="@+id/etBio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:background="@drawable/rounded_card"
+        android:hint="Bio"
         android:padding="10dp"
-        android:text="Digital goodies designer."
         android:textSize="13sp" />
 
     <TextView
@@ -108,12 +111,13 @@
         android:textSize="11sp" />
 
     <TextView
+        android:id="@+id/tvEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:background="@drawable/rounded_card"
         android:padding="10dp"
-        android:text="jacob.west@mail.com"
+        android:hint="Email"
         android:textSize="13sp" />
 
     <TextView
@@ -124,13 +128,14 @@
         android:textColor="#757575"
         android:textSize="11sp" />
 
-    <TextView
+    <EditText
+        android:id="@+id/etPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:background="@drawable/rounded_card"
+        android:hint="Phone"
         android:padding="10dp"
-        android:text="+92 300 1234567"
         android:textSize="13sp" />
 
 </LinearLayout>

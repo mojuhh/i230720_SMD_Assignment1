@@ -90,17 +90,17 @@
         android:orientation="vertical">
 
         <LinearLayout android:id="@+id/btnPhotoVideo" android:layout_width="match_parent" android:layout_height="36dp" android:gravity="center_vertical">
-            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Photo" android:src="@drawable/gallery" />
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Photo" android:src="@drawable/photo" />
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp" android:text="Photo/video" android:textSize="14sp" />
         </LinearLayout>
 
         <LinearLayout android:layout_width="match_parent" android:layout_height="36dp" android:gravity="center_vertical">
-            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Tag people" android:src="@drawable/add_friend" />
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Tag people" android:src="@drawable/person_add" />
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp" android:text="Tag people" android:textSize="14sp" />
         </LinearLayout>
 
         <LinearLayout android:layout_width="match_parent" android:layout_height="36dp" android:gravity="center_vertical">
-            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Feeling" android:src="@drawable/emoji" />
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Feeling" android:src="@drawable/sentiment_satisfied" />
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp" android:text="Feeling/activity" android:textSize="14sp" />
         </LinearLayout>
 
@@ -110,7 +110,7 @@
         </LinearLayout>
 
         <LinearLayout android:id="@+id/btnCamera" android:layout_width="match_parent" android:layout_height="36dp" android:gravity="center_vertical">
-            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Live video" android:src="@drawable/camera" />
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Live video" android:src="@drawable/photo_camera" />
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp" android:text="Live video" android:textSize="14sp" />
         </LinearLayout>
     </LinearLayout>

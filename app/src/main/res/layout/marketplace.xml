@@ -20,7 +20,7 @@
             android:textSize="22sp"
             android:textStyle="bold" />
 
-        <ImageView android:id="@+id/btnYourProfile" android:layout_width="28dp" android:layout_height="28dp" android:contentDescription="Profile" android:src="@drawable/social" />
+        <ImageView android:id="@+id/btnYourProfile" android:layout_width="28dp" android:layout_height="28dp" android:contentDescription="Profile" android:src="@drawable/group" />
         <ImageView android:id="@+id/btnSearch" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginStart="8dp" android:contentDescription="Search" android:src="@drawable/search" />
     </LinearLayout>
 
@@ -41,7 +41,7 @@
                 android:layout_width="16dp"
                 android:layout_height="16dp"
                 android:contentDescription="Sell"
-                android:src="@drawable/add_text" />
+                android:src="@drawable/text_fields" />
 
             <TextView
                 android:layout_width="wrap_content"

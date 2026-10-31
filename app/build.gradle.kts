@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -9,7 +10,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.i230720_smd_assignment1"
+        applicationId = "com.example.i230720_smd_assignment"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -40,4 +41,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
+    implementation(platform("com.google.firebase:firebase-bom:33.9.0"))
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-database")
 }

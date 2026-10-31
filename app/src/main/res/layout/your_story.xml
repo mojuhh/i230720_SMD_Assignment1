@@ -79,7 +79,7 @@
         </LinearLayout>
 
         <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:gravity="center" android:orientation="vertical">
-            <ImageView android:layout_width="18dp" android:layout_height="18dp" android:contentDescription="Highlight" android:src="@drawable/heart" />
+            <ImageView android:layout_width="18dp" android:layout_height="18dp" android:contentDescription="Highlight" android:src="@drawable/favorite" />
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Highlight" android:textColor="#FFFFFF" android:textSize="10sp" />
         </LinearLayout>
 
@@ -89,7 +89,7 @@
         </LinearLayout>
 
         <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:gravity="center" android:orientation="vertical">
-            <ImageView android:layout_width="18dp" android:layout_height="18dp" android:contentDescription="More" android:src="@drawable/more" />
+            <ImageView android:layout_width="18dp" android:layout_height="18dp" android:contentDescription="More" android:src="@drawable/more_vert" />
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="More" android:textColor="#FFFFFF" android:textSize="10sp" />
         </LinearLayout>
     </LinearLayout>

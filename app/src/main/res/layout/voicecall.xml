@@ -64,7 +64,7 @@
             android:background="#40FFFFFF"
             android:contentDescription="Speaker"
             android:padding="12dp"
-            android:src="@drawable/speaker" />
+            android:src="@drawable/volume_up" />
 
         <ImageView
             android:layout_width="48dp"
@@ -84,7 +84,7 @@
             android:backgroundTint="#E53935"
             android:contentDescription="End call"
             android:padding="14dp"
-            android:src="@drawable/recordorcall" />
+            android:src="@drawable/video_call" />
     </LinearLayout>
 
 </LinearLayout>

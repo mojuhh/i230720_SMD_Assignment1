@@ -100,7 +100,7 @@
                     android:layout_width="16dp"
                     android:layout_height="16dp"
                     android:contentDescription="Add friend"
-                    android:src="@drawable/add_friend" />
+                    android:src="@drawable/person_add" />
 
                 <TextView
                     android:layout_width="wrap_content"

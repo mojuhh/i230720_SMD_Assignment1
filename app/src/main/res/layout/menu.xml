@@ -71,11 +71,11 @@
         android:orientation="horizontal">
 
         <LinearLayout android:layout_width="0dp" android:layout_height="44dp" android:layout_marginEnd="4dp" android:layout_weight="1" android:background="@drawable/rounded_card" android:gravity="center_vertical" android:paddingStart="8dp">
-            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Memories" android:src="@drawable/memories" />
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Memories" android:src="@drawable/history" />
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Memories" android:textSize="12sp" />
         </LinearLayout>
         <LinearLayout android:layout_width="0dp" android:layout_height="44dp" android:layout_marginStart="4dp" android:layout_weight="1" android:background="@drawable/rounded_card" android:gravity="center_vertical" android:paddingStart="8dp">
-            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Saved" android:src="@drawable/saved" />
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Saved" android:src="@drawable/stars" />
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Saved" android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
@@ -87,11 +87,11 @@
         android:orientation="horizontal">
 
         <LinearLayout android:layout_width="0dp" android:layout_height="44dp" android:layout_marginEnd="4dp" android:layout_weight="1" android:background="@drawable/rounded_card" android:gravity="center_vertical" android:paddingStart="8dp">
-            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Groups" android:src="@drawable/social" />
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Groups" android:src="@drawable/group" />
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Groups" android:textSize="12sp" />
         </LinearLayout>
         <LinearLayout android:layout_width="0dp" android:layout_height="44dp" android:layout_marginStart="4dp" android:layout_weight="1" android:background="@drawable/rounded_card" android:gravity="center_vertical" android:paddingStart="8dp">
-            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Marketplace" android:src="@drawable/market" />
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="Marketplace" android:src="@drawable/storefront" />
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Marketplace" android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>

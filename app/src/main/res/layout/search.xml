@@ -214,7 +214,7 @@
             android:background="#F0F2F5"
             android:contentDescription="Add Friend"
             android:padding="8dp"
-            android:src="@drawable/add_friend" />
+            android:src="@drawable/person_add" />
     </LinearLayout>
 
     <TextView
@@ -236,7 +236,7 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:contentDescription="Recent Search Icon"
-            android:src="@drawable/memories" />
+            android:src="@drawable/history" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -270,7 +270,7 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:contentDescription="Recent Search Icon"
-            android:src="@drawable/memories" />
+            android:src="@drawable/history" />
 
         <TextView
             android:layout_width="wrap_content"

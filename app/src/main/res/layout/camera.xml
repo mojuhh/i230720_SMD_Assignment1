@@ -64,7 +64,7 @@
                 android:scaleX="1.5"
                 android:scaleY="1.5"
                 android:layout_weight="1"
-                android:src="@drawable/flash"
+                android:src="@drawable/flash_on"
                 android:gravity="center" />
 
             <FrameLayout
@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:src="@drawable/flip_camera"
+                android:src="@drawable/flip_camera_android"
                 android:scaleY="1.5"
                 android:scaleX="1.5"/>
 
@@ -95,7 +95,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:padding="6dp"
-                android:src="@drawable/emoji" />
+                android:src="@drawable/sentiment_satisfied" />
         </LinearLayout>
     </FrameLayout>
 

@@ -65,14 +65,14 @@
                 android:layout_width="22dp"
                 android:layout_height="22dp"
                 android:contentDescription="Call"
-                android:src="@drawable/recordorcall" />
+                android:src="@drawable/video_call" />
 
             <ImageView
                 android:layout_width="22dp"
                 android:layout_height="22dp"
                 android:layout_marginStart="14dp"
                 android:contentDescription="Video Call"
-                android:src="@drawable/camera" />
+                android:src="@drawable/photo_camera" />
 
             <ImageView
                 android:layout_width="22dp"
@@ -162,14 +162,14 @@
                 android:layout_height="20dp"
                 android:layout_marginStart="10dp"
                 android:contentDescription="Camera"
-                android:src="@drawable/camera" />
+                android:src="@drawable/photo_camera" />
 
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginStart="10dp"
                 android:contentDescription="Gallery"
-                android:src="@drawable/gallery" />
+                android:src="@drawable/photo" />
 
             <ImageView
                 android:layout_width="20dp"
@@ -202,14 +202,14 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:contentDescription="Emoji"
-                android:src="@drawable/emoji" />
+                android:src="@drawable/sentiment_satisfied" />
 
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginStart="10dp"
                 android:contentDescription="Like"
-                android:src="@drawable/like" />
+                android:src="@drawable/thumb_up" />
         </LinearLayout>
     </LinearLayout>
 
