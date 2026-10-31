@@ -5,6 +5,7 @@
     android:background="#FFFFFF"
     android:orientation="vertical">
 
+    <!-- Top Header Bar -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -21,11 +22,12 @@
             android:textSize="18sp" />
 
         <TextView
+            android:id="@+id/tvAvatar"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_marginStart="8dp"
             android:background="@drawable/avatar_circle"
-            android:backgroundTint="#8B4A62"
+            android:backgroundTint="@color/teal"
             android:gravity="center"
             android:text="AK"
             android:textColor="#FFFFFF"
@@ -39,6 +41,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/tvReceiverName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Aisha Khan"
@@ -84,64 +87,49 @@
         </LinearLayout>
     </LinearLayout>
 
-    <LinearLayout
+    <!-- Messages RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMessages"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="vertical"
-        android:padding="12dp">
+        android:padding="8dp"
+        android:clipToPadding="false" />
+
+    <!-- Replying Preview Bar -->
+    <LinearLayout
+        android:id="@+id/layoutReplyPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F2F5"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:visibility="gone">
 
         <TextView
+            android:id="@+id/tvReplyPreviewText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Replying to: "
+            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/btnCancelReply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="TODAY 4:49 PM"
+            android:padding="4dp"
+            android:text="✕"
             android:textColor="#888888"
-            android:textSize="10sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/rounded_card"
-            android:padding="10dp"
-            android:text="Hey! Are you still coming Saturday?"
-            android:textColor="#000000"
-            android:textSize="13sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:layout_marginTop="8dp"
-            android:background="@color/teal"
-            android:padding="10dp"
-            android:text="Yes, obviously"
-            android:textColor="#FFFFFF"
-            android:textSize="13sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:layout_marginTop="4dp"
-            android:background="@color/teal"
-            android:padding="10dp"
-            android:text="Already charged both batteries"
-            android:textColor="#FFFFFF"
-            android:textSize="13sp" />
-
-        <View
-            android:layout_width="160dp"
-            android:layout_height="100dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="6dp"
-            android:background="@drawable/placeholder_img" />
+            android:textSize="14sp" />
     </LinearLayout>
 
+    <!-- Message Input Bar -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="52dp"
         android:gravity="center_vertical"
         android:paddingStart="8dp"
         android:paddingEnd="8dp">
@@ -153,65 +141,51 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:contentDescription="Add"
-                android:src="@drawable/add" />
-
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="10dp"
+                android:id="@+id/btnCameraMedia"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
                 android:contentDescription="Camera"
                 android:src="@drawable/photo_camera" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:id="@+id/btnGalleryMedia"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
                 android:layout_marginStart="10dp"
                 android:contentDescription="Gallery"
                 android:src="@drawable/photo" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:id="@+id/btnSharePost"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
                 android:layout_marginStart="10dp"
-                android:contentDescription="Mic"
-                android:src="@drawable/mic" />
+                android:contentDescription="Post"
+                android:src="@drawable/share" />
         </LinearLayout>
 
-        <TextView
+        <EditText
+            android:id="@+id/etMessageInput"
             android:layout_width="0dp"
-            android:layout_height="36dp"
+            android:layout_height="40dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
             android:background="@drawable/rounded_card"
-            android:gravity="center_vertical"
+            android:hint="Type a message..."
+            android:inputType="textCapSentences|textMultiLine"
             android:paddingStart="12dp"
-            android:text="Aa"
-            android:textColor="#888888"
+            android:paddingEnd="12dp"
+            android:textColor="#000000"
             android:textSize="13sp" />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:contentDescription="Emoji"
-                android:src="@drawable/sentiment_satisfied" />
-
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="10dp"
-                android:contentDescription="Like"
-                android:src="@drawable/thumb_up" />
-        </LinearLayout>
+        <ImageView
+            android:id="@+id/btnSendMessage"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:contentDescription="Send"
+            android:padding="4dp"
+            android:src="@drawable/send" />
     </LinearLayout>
 
 </LinearLayout>

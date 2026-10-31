@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:orientation="vertical"
+    android:paddingStart="48dp"
+    android:paddingEnd="12dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <LinearLayout
+        android:id="@+id/cardMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_card"
+        android:backgroundTint="@color/teal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <!-- Quoted Reply Box -->
+        <LinearLayout
+            android:id="@+id/layoutReplyBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#20FFFFFF"
+            android:orientation="vertical"
+            android:padding="6dp"
+            android:layout_marginBottom="4dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvReplyToText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#E0FFFFFF"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <!-- Message Text -->
+        <TextView
+            android:id="@+id/tvMessageContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <!-- Message Image (for media type) -->
+        <ImageView
+            android:id="@+id/ivMessageImage"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="4dp"
+            android:visibility="gone" />
+
+        <!-- Timestamp & Edited Label -->
+        <TextView
+            android:id="@+id/tvTimestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="2dp"
+            android:textColor="#C0FFFFFF"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <!-- Heart Reaction Badge -->
+    <TextView
+        android:id="@+id/tvHeartReaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-8dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/rounded_card"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="❤️"
+        android:textSize="12sp"
+        android:elevation="4dp"
+        android:visibility="gone" />
+
+</LinearLayout>
